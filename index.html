@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Figurinhas Copa do Mundo 2026 - Complete seu álbum!</title>
+  <meta name="description" content="Figurinhas oficiais da Copa do Mundo 2026 por apenas R$ 9,90. Complete seu álbum com as estrelas do futebol mundial. Envio para todo o Brasil!" />
+  <meta name="author" content="Figurinhas Copa 2026" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Figurinhas Copa do Mundo 2026 - R$ 9,90" />
+  <meta property="og:description" content="Complete seu álbum da Copa 2026 com figurinhas oficiais. Oferta especial por tempo limitado!" />
+  <meta property="og:type" content="product" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Figurinhas Copa do Mundo 2026" />
+  <meta name="twitter:description" content="Figurinhas oficiais da Copa do Mundo 2026 por apenas R$ 9,90. Complete seu álbum com as estrelas do futebol mundial." />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Announcement Bar -->
+  <div class="announcement-bar" id="announcement-bar">
+    ⚽ OFERTA POR TEMPO LIMITADO — Últimas unidades disponíveis!
+  </div>
+
+  <!-- Hero Section -->
+  <section class="section hero" id="hero">
+    <div class="hero__header">
+      <span class="hero__badge">COPA DO MUNDO 2026</span>
+      <h1 class="hero__title">Complete seu Álbum da Copa 2026</h1>
+      <p class="hero__subtitle">Figurinhas oficiais das maiores estrelas do futebol mundial. Colecione, troque e viva a emoção da Copa!</p>
+    </div>
+
+    <div class="hero__image-wrapper">
+      <img
+        src="assets/hero-stickers.jpg"
+        alt="Figurinhas da Copa do Mundo 2026"
+        class="hero__image"
+        width="1280"
+        height="720"
+      />
+    </div>
+
+    <div class="hero__actions">
+      <button class="btn btn--primary" id="btn-buy-hero" onclick="goToCheckout()">
+        comprar o pack agora por 9,90
+      </button>
+      <button class="btn btn--outline" id="btn-details" onclick="openModal()">
+        Ver Detalhes
+      </button>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="section features" id="features">
+    <div class="features__grid">
+      <div class="features__image-container reveal">
+        <div class="features__image-glow"></div>
+        <img
+          src="assets/sticker-pack.png"
+          alt="Pacote de figurinhas da Copa 2026"
+          class="features__image"
+          width="400"
+          height="400"
+          loading="lazy"
+        />
+      </div>
+      <div class="features__content reveal">
+        <h2>🏆 Figurinhas da Copa 2026 em PDF Coleção Completa</h2>
+        <ul class="features__list">
+          <li>
+            <span class="features__check">✅</span>
+            <span class="features__text">Figurinhas em altíssima qualidade</span>
+          </li>
+          <li>
+            <span class="features__check">✅</span>
+            <span class="features__text">Prontas pra imprimir em casa</span>
+          </li>
+          <li>
+            <span class="features__check">✅</span>
+            <span class="features__text">Papel adesivo ou comum</span>
+          </li>
+          <li>
+            <span class="features__check">✅</span>
+            <span class="features__text">Acesso imediato após confirmação</span>
+          </li>
+          <li>
+            <span class="features__check">✅</span>
+            <span class="features__text">Encaixam perfeitamente no álbum</span>
+          </li>
+          <li>
+            <span class="features__check">✅</span>
+            <span class="features__text">Idênticas as Verdadeiras!</span>
+          </li>
+        </ul>
+        <div class="features__cta">
+          <button class="btn btn--primary" id="btn-buy-features" onclick="goToCheckout()">
+            comprar o pack agora por 9,90
+          </button>
+          <p class="features__cta-note">Pagamento seguro via GG Checkout • Envio para todo o Brasil</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="section--bg" id="testimonials">
+    <div class="section testimonials">
+      <h2 class="testimonials__title reveal">Quem já garantiu o seu</h2>
+      <div class="testimonials__grid">
+
+        <div class="testimonial-card reveal">
+          <div class="testimonial-card__stars">
+            <span class="testimonial-card__star">★</span>
+            <span class="testimonial-card__star">★</span>
+            <span class="testimonial-card__star">★</span>
+            <span class="testimonial-card__star">★</span>
+            <span class="testimonial-card__star">★</span>
+          </div>
+          <p class="testimonial-card__text">Chegou super rápido e as figurinhas são lindas! Já completei metade do meu álbum.</p>
+          <p class="testimonial-card__author">Carlos M., São Paulo</p>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <div class="testimonial-card__stars">
+            <span class="testimonial-card__star">★</span>
+            <span class="testimonial-card__star">★</span>
+            <span class="testimonial-card__star">★</span>
+            <span class="testimonial-card__star">★</span>
+            <span class="testimonial-card__star">★</span>
+          </div>
+          <p class="testimonial-card__text">Qualidade excelente, veio até uma figurinha brilhante do Neymar! Recomendo demais.</p>
+          <p class="testimonial-card__author">Fernanda R., Rio de Janeiro</p>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <div class="testimonial-card__stars">
+            <span class="testimonial-card__star">★</span>
+            <span class="testimonial-card__star">★</span>
+            <span class="testimonial-card__star">★</span>
+            <span class="testimonial-card__star">★</span>
+            <span class="testimonial-card__star">★</span>
+          </div>
+          <p class="testimonial-card__text">Paguei barato e recebi muito mais do que esperava. Ótimo custo-benefício!</p>
+          <p class="testimonial-card__author">João P., Belo Horizonte</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section cta-section reveal" id="cta">
+    <h2 class="cta-section__title">Não perca essa chance!</h2>
+    <p class="cta-section__text">Estoque limitado. Garanta suas figurinhas da Copa 2026 agora e comece a completar seu álbum antes de todo mundo.</p>
+    <div class="cta-section__actions">
+      <button class="btn btn--primary btn--primary-xl" id="btn-buy-cta" onclick="goToCheckout()">
+        comprar o pack agora por 9,90
+      </button>
+      <p class="cta-section__note">7 dias de garantia • Reembolso total se não gostar</p>
+    </div>
+  </section>
+
+
+
+  <!-- Footer -->
+  <footer class="footer" id="footer">
+    <div class="footer__inner">
+      © 2026 Figurinhas Copa do Mundo. Todos os direitos reservados.<br />
+      Produto oficial licenciado. Envio para todo o Brasil.
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal-overlay" id="modal-overlay" onclick="handleOverlayClick(event)">
+    <div class="modal" id="modal">
+      <h3 class="modal__title">🏆 Figurinhas da Copa 2026 em PDF</h3>
+      <ul class="modal__list">
+        <li>• Figurinhas em altíssima qualidade</li>
+        <li>• Prontas pra imprimir em casa</li>
+        <li>• Papel adesivo ou comum</li>
+        <li>• Acesso imediato após confirmação</li>
+        <li>• Encaixam perfeitamente no álbum</li>
+      </ul>
+      <div class="modal__actions">
+        <button class="btn btn--primary" id="btn-buy-modal" onclick="goToCheckout()">
+          comprar o pack agora por 9,90
+        </button>
+        <button class="btn btn--outline btn--outline-sm" id="btn-close-modal" onclick="closeModal()">
+          Fechar
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
